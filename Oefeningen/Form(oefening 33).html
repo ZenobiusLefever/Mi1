@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+    <meta name="viewport" content="width=device-width  initial-scale=1.0;">
+    <meta charset="UTF-8">
+    <title>Form (oefening 33)</title>
+    <style>
+        body {
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+   
+    }
+    </style>
+</head>
+
+<body>
+    <h2>Form oefening</h2>
+    <form>
+
+        <label for="fname">Firstname:</label>
+        <input type="text" name="fname" id="fname"  value="fname" placeholder="Firstname" size="40"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname"  value="lname" placeholder="Lastname" size="40"><br><br>
+
+        <label for="email">Email adres:</label>
+        <input type="text" name="mail" id="email"  value="email" placeholder="Email" size="40"><br><br>
+
+        <label for="gender"></label>
+        <p id="gender" value="gender">Gender: <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male"><br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"> <br>
+            <label for="othergender">Other</label>
+            <input type="radio" name="gender" id="othergender" value="other"> <br><br>
+        </p>
+
+        <label for="birth">Date of birth:</label>
+        <input type="date" name="birth" id="birth"> <br><br>
+
+        <label for="vakken"></label> 
+<p id="vakken"  value="vakken"> Favoriete vakken: <br>
+        <input type="checkbox" name="mi1" id="mi1"  value="mi1">
+        <label for="mi1"> MI1</label> <br>
+        <input type="checkbox" name="Software" id="Software" value="Software">
+        <label for="Software"> Software engeneering</label> <br>
+        <input type="checkbox" name="ad" id="ad" value="ad">
+        <label for="ad"> Aplication development</label> <br>
+        <input type="checkbox" name="net" id="net" value="networking">
+        <label for="net"> Networking</label> <br>
+        <input type="checkbox" name="other" id="anderevakken"  value="other">
+        <label for="anderevakken"> Other...</label> <br><br>
+    </p>
+
+
+
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
